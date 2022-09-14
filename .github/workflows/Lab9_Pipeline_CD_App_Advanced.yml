@@ -40,7 +40,7 @@ jobs:
         if: ${{ failure() }} # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions
         uses: imjohnbo/issue-bot@3daae12aa54d38685d7ff8459fc8a2aee8cea98b
         with:
-          assignees: "peterochesne"
+          assignees: "nassimaitnaceur"
           labels: "Kube-score"
           title: "Erreur Kube-Score"
           body: |
